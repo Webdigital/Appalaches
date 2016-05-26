@@ -20,7 +20,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/img/logo-b-appalaches.svg" alt="Appalaches" class="center-block hidden-xs" id="logob">
            <div class="overlay">
         <div class="col">
-          <p class="text-center">Conjuguez votre stratégie<br> à la bonne personne</p>
+          <p class="text-center">Conjuguez votre stratégie<br> à la bonne personne.</p>
         </div>
         
         <!-- Commentaire --> 
