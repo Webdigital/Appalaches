@@ -22,6 +22,8 @@
         <div class="col">
           <p class="text-center">Conjuguez votre stratégie<br> à la bonne personne</p>
         </div>
+        
+        <!-- Commentaire --> 
 
         <div class="col">
           <a href="#lagence" title="scrolldown" id="pictodown" class="page-scroll center-block"></a>
