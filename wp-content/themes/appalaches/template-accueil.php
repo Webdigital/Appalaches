@@ -8,35 +8,32 @@
   <?php get_header(); ?>
 
   <section id="accueil" class="content">
-    <div class="container-fluid no-gutter slider">
-      <div class="video-container">
-	      <video autoplay loop="true" width="1280" height="720">
-    <source type="video/mp4" src="http://appalaches.jonusbaum.com/wp-content/uploads/2016/05/birds.mp4?dl=1">
-    <source type="video/webm" src="http://appalaches.jonusbaum.com/wp-content/uploads/2016/05/birds.webm?dl=1">
-    <source type="video/ogg" src="https://www.dropbox.com/s/y46oqipirl4gnt1/beepl-pink-vynil.ogv?dl=1">
-  </video>
-  
-        <div class="col">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/logo-b-appalaches.svg" alt="Appalaches" class="center-block hidden-xs" id="logob">
-           <div class="overlay">
-        <div class="col">
-          <p class="text-center">Conjuguez votre stratégie<br> à la bonne personne.</p>
-        </div>
-        
-        <!-- Commentaire --> 
+    <div class="container-fluid no-gutter slider video-container">
+		
+		<div class="col">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/logo-b-appalaches.svg" alt="Appalaches" class="center-block hidden-xs" id="logob">
+		</div>
+		
+		<div class="col">
+			<p class="text-center">Conjuguez votre stratégie<br> à la bonne personne.</p>
+		</div>
+		
+		<div class="col" style="z-index:auto;">
+			<a href="#lagence" title="scrolldown" id="pictodown" class="page-scroll center-block"></a>
+		</div>
 
-        <div class="col">
-          <a href="#lagence" title="scrolldown" id="pictodown" class="page-scroll center-block"></a>
-        </div>
-  </div> <ul>
-            <li><a href="https://www.facebook.com/agenceappalaches" title="Facebook Appalaches" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-            <li><a href="https://twitter.com/Appalaches_fr" title="Twitter Appalaches" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/100386235286197107299" title="Google Appalaches" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/appalaches" title="Linkedin Appalaches" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-          </ul>
-        </div>
-
-      </div>
+		<ul>
+			<li><a href="https://www.facebook.com/agenceappalaches" title="Facebook Appalaches" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+			<li><a href="https://twitter.com/Appalaches_fr" title="Twitter Appalaches" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+			<li><a href="https://plus.google.com/u/0/100386235286197107299" title="Google Appalaches" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/appalaches" title="Linkedin Appalaches" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+		</ul>
+		
+		<video autoplay loop="true">
+			<source type="video/mp4" src="http://appalaches.jonusbaum.com/wp-content/uploads/2016/05/birds.mp4">
+			<source type="video/webm" src="http://appalaches.jonusbaum.com/wp-content/uploads/2016/05/birds.webm">
+			<source type="video/ogg" src="http://appalaches.jonusbaum.com/wp-content/uploads/2016/05/birds.ogv">
+		</video>
     </div>
 
     <div class="container-fluid no-gutter cadrerose" id="lagence">

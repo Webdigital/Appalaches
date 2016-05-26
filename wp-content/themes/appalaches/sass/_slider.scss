@@ -6,6 +6,8 @@
 	background-position:center center;
 	height: 600px;
 	position: relative;
+	z-index: 10;
+	
 }
 
 #agence .slider {
@@ -67,7 +69,6 @@
 
 .slider p{
 	font-family: 'Roboto:400', sans-serif;
-	font-size:2.5rem;
 	color:$blangapp;
 	text-transform:uppercase;
 	font-weight:400;
