@@ -1,0 +1,245 @@
+.h2titreb{
+   	font-family: 'Roboto', sans-serif;
+   	margin-top: 50px;
+   	text-transform: uppercase !important;
+   	font-size: 2.2rem;
+   	font-weight: 300;
+   	padding-top: 10px;
+   	letter-spacing: 0.8px;
+}
+
+.h2titre2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    text-transform: uppercase !important;
+    font-size: 2.0rem;
+    font-weight: 300;
+    padding-top: 10px;
+    letter-spacing: 0.8px;
+}
+
+.h2titrec{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase !important;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-top: 10px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  line-height:35px;
+}
+
+.h2titreclient{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase !important;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-top: 10px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  line-height:35px;
+}
+
+.h2titreb:before {
+ 	content:url('../img/feuille-b-appalaches.png') ; 
+ 	margin-right: 30px;
+ 	margin-bottom: 10px !important;
+ 	position: relative;
+ 	top:-8px;
+ }
+
+.h2titreb:after {
+ 	content:url('../img/feuille-b-appalaches.png');
+ 	margin-left: 30px;
+ 	margin-bottom: 10px !important;
+ 	position: relative;
+ 	top:-8px;
+ }
+
+ .h2titren{
+   	font-family: 'Roboto', sans-serif;
+   	margin-top: 50px;
+   	text-transform: uppercase !important;
+   	font-size: 2.2rem;
+   	font-weight: 300;
+   	padding-top: 10px;
+   	letter-spacing: 0.8px;
+}
+
+.h2titren:before {
+ 	content:url('../img/feuille-n-appalaches.png') ; 
+ 	margin-right: 30px;
+ 	margin-bottom: 10px !important;
+ 	position: relative;
+ 	top:-8px;
+ }
+
+.h2titren:after {
+ 	content:url('../img/feuille-n-appalaches.png');
+ 	margin-left: 30px;
+ 	margin-bottom: 10px !important;
+ 	position: relative;
+ 	top:-8px;
+ }
+
+.h2titrer{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    text-transform: uppercase !important;
+    font-size: 2.2rem;
+    font-weight: 300;
+    padding-top: 10px;
+    letter-spacing: 0.8px;
+}
+
+.h2titrer:before {
+  content:url('../img/feuille-r-appalaches.png') ; 
+  margin-right: 30px;
+  margin-bottom: 10px !important;
+  position: relative;
+  top:-8px;
+ }
+
+.h2titrer:after {
+  content:url('../img/feuille-r-appalaches.png');
+  margin-left: 30px;
+  margin-bottom: 10px !important;
+  position: relative;
+  top:-8px;
+ }
+
+ #projet .btn-sample { 
+  color: $blangapp; 
+  background-color:$roseapp; 
+  border-color:$roseapp; 
+  line-height: 20px !important;
+  vertical-align: center !important;
+  margin:0;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+} 
+
+ #projet .btn-group-lg > .btn, .btn-lg {
+    border-radius: 30px;
+    line-height: 30px !important;
+}
+ 
+ #projet .btn-sample:hover, 
+ #projet .btn-sample:focus, 
+ #projet .btn-sample:active, 
+ #projet .btn-sample.active, 
+ #projet .open .dropdown-toggle.btn-sample { 
+  color: $blangapp; 
+  background-color: #bc0447; 
+  border-color: $roseapp; 
+}
+
+#projet2 .btn-sample{ 
+  color: $blangapp; 
+  background-color: $orangapp; 
+  border-color: $orangapp; 
+  line-height: 20px !important;
+  vertical-align: center !important;
+  margin:0;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+#projet3 .btn-sample{ 
+  color: $blangapp; 
+  background-color: $orangapp; 
+  border-color: $orangapp; 
+  line-height: 20px !important;
+  vertical-align: center !important;
+  margin:0;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+} 
+
+#form #adresse .btn-sample { 
+  color: $blangapp; 
+  background-color: $orangapp; 
+  border-color: $orangapp; 
+  line-height: 20px !important;
+  vertical-align: center !important;
+  margin:0;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  width: 250px;
+} 
+
+#projet2 .btn-group-lg > .btn, .btn-lg,
+#projet3 .btn-group-lg > .btn, .btn-lg, 
+#form .btn-group-lg > .btn, .btn-lg{
+    border-radius: 30px;
+    line-height: 30px !important;
+}
+ 
+ #projet2 .btn-sample:hover, 
+ #projet2 .btn-sample:focus, 
+ #projet2 .btn-sample:active, 
+ #projet2 .btn-sample.active, 
+ #projet2 .open .dropdown-toggle.btn-sample,
+ #form #adresse .btn-sample:hover, 
+ #form #adresse .btn-sample:focus, 
+ #form #adresse .btn-sample:active, 
+ #form #adresse .btn-sample.active, 
+ #form #adresse .open .dropdown-toggle.btn-sample
+ { 
+  color: $blangapp; 
+  background-color: #e8a205; 
+  border-color: $orangapp; 
+}
+
+ #projet3 .btn-sample:hover, 
+ #projet3 .btn-sample:focus, 
+ #projet3 .btn-sample:active, 
+ #projet3 .btn-sample.active, 
+ #projet3 .open .dropdown-toggle.btn-sample
+ { 
+  color: $blangapp; 
+  background-color: #f2a803;  
+  border-color: #f2a803; 
+}
+ 
+@media (max-width: 767px) {
+
+.h2titreb, .h2titren{
+   	font-size: 2.5rem;
+   	letter-spacing: 0px;
+}
+
+.h2titreb:before, .h2titren:before {
+ 	margin-right: 10px;
+ 	top:-2px;
+ }
+
+.h2titreb:after, .h2titren:after{
+ 	margin-left: 10px;
+ 	top:-2px;
+ }
+}

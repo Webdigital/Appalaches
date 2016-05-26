@@ -1,0 +1,13 @@
+#avis{
+    background:$grisapp;
+    color:$roseapp;
+    padding-bottom: 60px;
+       margin-bottom: 60px;
+    h2{
+    @extend .h2titrer;
+    margin-bottom: 30px;
+    }
+    img{
+	@include border-radius(50%);
+    }
+}

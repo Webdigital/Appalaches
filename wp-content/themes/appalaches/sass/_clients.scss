@@ -1,0 +1,65 @@
+#mookup .titre{
+	margin-top: 160px;
+	margin-bottom: 40px;
+	display: block;	
+	color:$grismoyen;
+}
+
+#mookup .titre span{
+	font-family: 'Roboto', sans-serif;
+  	color:$orangapp;
+  	font-weight: 200;
+ }
+
+ #mookup #clientslider{
+ 	background-color:$grisclair;
+ }
+
+
+ #mookup #clientslider{
+ 	background-color:$grisclair;
+ }
+
+ #mookup #owl-demo2{
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  max-width:800px;
+  margin:0 auto;
+ }
+
+#mookup #owl-demo2 .item span{
+  position: absolute;
+  display: block;
+  bottom:0;
+  right:0;
+  font-family:'Roboto', sans-serif;
+  background-color:$roseapp;
+  color:$blangapp;
+  padding:15px 17px;
+  line-height:30px;
+  font-size:2.5rem;
+  font-weight:300;
+  text-align:center;
+  text-decoration: none;
+  }
+
+#mookup #owl-demo2 .item span:hover{
+  background-color:$orangapp;
+  color:$blangapp;
+  cursor:pointer;
+  @extend .fadeOut;
+  }
+
+.cadregris{
+  background-color:$grisclair;
+  margin-bottom: 50px; 
+  }
+
+.video{
+  display: block;
+  padding: 60px ;
+  margin-top: 60px ;
+  margin-bottom: 60px;
+  border:60px solid #fff;
+  height: 480px;
+  }

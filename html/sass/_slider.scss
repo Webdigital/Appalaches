@@ -1,0 +1,131 @@
+// slider accueil
+
+#accueil .slider {
+	background:url(../img/bg-birds.jpg) no-repeat center center fixed;
+	background-size:cover;
+	background-position:center center;
+	height: 600px;
+	position: relative;
+}
+
+#agence .slider {
+	background:url(../img/bg-mer-appalaches.jpg) no-repeat center center fixed;
+	background-size:cover;
+	background-position:center center;
+	height: 600px;
+	position: relative;
+}
+
+#equipe .slider {
+	background:url(../img/bg-equipe.jpg) no-repeat center center fixed;;
+	background-size:cover;
+	background-position:center center;
+	height: 600px;
+	position: relative;
+}
+
+#form .slider {
+	background:url(../img/bg-contact.png) 0 100px no-repeat  fixed;
+	background-size:cover;
+	height: 600px;
+	position: relative;
+}
+
+#logob{
+    display: block;
+    margin-top:60px !important;
+}
+
+.slider #logob{
+	display: block;
+	margin: 300px auto 130 auto !important;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider ul{
+    list-style: none;
+    position:absolute;
+    top:20px;
+    right:30px;
+}
+
+.slider ul li a{
+    list-style: none;
+    color:$blancslidmenu;
+    i:hover{
+    color:$roseslidmenu;
+    cursor: pointer;
+	}
+}
+
+.slider p{
+	font-family: 'Roboto:400', sans-serif;
+	font-size:2.5rem;
+	color:$blangapp;
+	text-transform:uppercase;
+	font-weight:400;
+    margin-top: 60px;
+}
+
+.owl-pagination .active span{
+    background:$orangapp !important;
+    opacity: 1 !important;
+}
+
+.owl-pagination  span{
+    background:$roseapp !important;
+    opacity: 1 !important;
+}
+
+.owl-pagination{	
+	margin-top: 20px;
+}
+
+#owl-demo .item img{
+    max-width: 100%;
+    height: auto;
+   }
+
+#owl-demo2 .item img{
+    max-width: 100%;
+    height: auto;
+   }
+
+#realisation #owl-demo .item img {
+    max-width: 140px;
+    height: auto;
+    @include border-radius(50%);
+    text-align: center;
+    border:1px solid #fff;
+    padding: 0;
+    }
+
+#realisation #owl-demo .item p {
+	font-family: 'Roboto', sans-serif;
+	font-size:1.3rem;
+	color:$darkapp;
+	font-weight:300;
+	margin-left: 20px;
+    }
+
+#owl-demo, #owl-demo2{
+  margin-top: 20px;
+ }
+
+#owl-demo span, #owl-demo2 span{
+  margin-top: 20px;
+  color:$roseapp;
+ }
+
+.owl-theme .owl-controls .owl-page span {
+    background: $roseapp none repeat scroll 0 0;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}

@@ -1,0 +1,63 @@
+.cadreroseform{
+  background:$roseapp;
+  color:$blangapp;
+  h2{
+  font-size: 1.5rem;
+  margin-top: 50px;
+  }
+  p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  }
+}
+
+#form form {
+  margin-top: 50px;
+  position: relative;
+    }
+
+#form form label{
+display: none;
+    }
+
+#form input.form-control {
+  background-color: #fff;
+  background-image: none;
+  @include border-radius(0px);
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 2;
+  padding: 7px 12px;
+  width: 100%;
+  border:none;
+}
+
+#form textarea {
+  border:none;
+}
+
+.form-control { color: #000 !important;
+
+}
+
+.form-control:focus {
+  border-color: $blangapp;
+}
+
+#adresse i{ 
+  font-size: 1.3rem;
+  vertical-align: center;
+  margin-right:10px;
+}
+
+.formulaire a.btn{ 
+  position: relative;
+  float: right;
+  right:0;
+}
